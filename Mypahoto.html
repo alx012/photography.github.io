@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Take A Photo</title>
+    <style>
+        /* CSS代碼開始 */
+        body {
+            font-size: 18px;
+            color: #5B7493;
+            font-family: Arial, sans-serif;
+            background-color: #E6E6F2	;
+        }
+
+        h1 {
+            color: #A7BEC6;
+        }
+        /* CSS代碼結束 */
+    </style>
+</head>
+<body>
+    <h1><center>Welcome to my website!</center></h1>
+    <p><CENTER>connect me in INSTAGRAM</CENTER></p>
+    <button id="clickButton"><center>點擊我</center></button>
+    <script>
+        // 在這裡寫入您的JavaScript代碼
+    
+    // 獲取按鈕元素
+    var clickButton = document.getElementById("clickButton");
+
+    // 添加點擊事件監聽器
+    clickButton.addEventListener("click", function() {
+        // 當按鈕被點擊時，改變h1標題的內容
+        var h1Element = document.querySelector("h1");
+        h1Element.textContent = "此網站已包含所有內容！";
+    });
+
+    </script>
+</body>
+</html>
+
